@@ -9,7 +9,7 @@
 $ethalias = "Ethernet"
 
 #variable qui demande l'adresse ip à utilisée
-$ethipaddress = "192.168.20.1"
+$ethipaddress = read-host "veuillez rentrer une @IP valide "
 
 #variable pour indiquer le masque de sous-réseau
 $ipmasque = "24"
