@@ -1,0 +1,4 @@
+$user = "administrateur@tssr.lan"
+$password = ConvertTo-SecureString "P@ssword" -AsPlainText -Force
+$Cred = New-Object System.Management.Automation.PSCredential ($User, $password)
+Add-Computer -DomainName tssr.lan -Credential $Cred
